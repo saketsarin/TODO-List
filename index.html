@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <title>TODO List</title>
+</head>
+
+<body>
+    <h1 class="heading">
+        Just another TODO List
+    </h1>
+    <div class="addContainer">
+        <input type="text" id="addInput" placeholder="Add a task...">
+        <span onClick="newTask()" class="addButton"><i class="fas fa-plus-circle"></i></span>
+    </div>
+    <div class="addContainer small">
+        <input type="text" id="addDesc" placeholder="Add the description...">
+    </div>
+    <div class="tasks" id="tasks">
+        <div class="task">
+            <input type="checkbox" id="label-1" />
+            <label for="label-1">
+                <h2>Eat My Breakfast <span>oatmeal, &amp; fruits</span></h2>
+            </label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="label-2" />
+            <label for="label-2">
+                <h2>Workout <span>Gym, &amp; Cardio</span></h2>
+            </label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="label-3" />
+            <label for="label-3">
+                <h2>Meditation <span>out of my mind</span></h2>
+            </label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="label-4" />
+            <label for="label-4">
+                <h2>Code, Code, Code <span>Learn Complete React Course</span></h2>
+            </label>
+        </div>
+        <div class="task">
+            <input type="checkbox" id="label-5" />
+            <label for="label-5">
+                <h2>Watch Series <span>Friendsssss</span></h2>
+            </label>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
